@@ -1,0 +1,130 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #181818;
+    width: 100vw;
+}
+
+main {
+    margin: 0 auto 40px auto;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 3px black;
+    overflow: hidden;
+    transition: width .2s, height .2s;
+    transition-timing-function: ease;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 200px;
+    margin: 40px 10px 20px 10px;
+}
+
+section#lostPassPage {
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'Maven Pro';
+    color: #181818;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    text-align: center
+}
+
+p {
+    color: #181818;
+    font-size: 1.0em;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+div.fields {
+    background-color: #f47521;
+    padding: 1px 3px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    color: white;
+}
+
+label > span{
+    display: none;
+}
+
+div.fields i {
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 2px;
+}
+
+div.fields input {
+    border: none;
+    font-size: 1em;
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 3px;
+    padding: 2px 5px;
+    background-color: #e2e2e2;
+}
+
+div.fields input:focus-within {
+    background-color: #fff;
+}
+
+input::placeholder {
+    color: #9b7760;
+    padding-left: 5px;
+    font-size: 0.9em;
+}
+
+input[type=submit] {
+    font-family: 'Maven Pro';
+    font-size: 1em;
+    font-weight: 600;
+    background-color: #f47521;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;;
+    border-bottom: 3px solid #d4661d;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #d4661d;
+}
+
+footer {
+    padding: 0 20px 60px 20px;
+
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+footer a {
+    color: #949494;
+    text-decoration: none;
+}
+

@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    text-align: justify;
+    padding-top: 50px;
+    font-family: 'Maven Pro';
+    font-size: 14pt;
+    color: #555555;
+    line-height: 24pt;
+}
+
+body::before {
+    content: 'Esta página não pode ser impressa.';
+    display: block;
+    padding: 20px;
+    font-weight: 500;
+}
+
+body::after {
+    content: 'Esse projeto foi desenvolvido para Módulo 4 do Curso HTML5 e CSS3 do Curso em Vídeo, ministrado pelo professor Gustavo Guanabara. O tema do projeto foi escolhido pela autora e não possui nenhuma associação oficial com a plataforma de streaming Crunchyroll. As imagens são propriedade da própria plataforma, utilizadas nesse projeto sem fins comerciais, com o objetivo único de estudo.';
+    display: block;
+    padding: 20px;
+}
+
+header, main, footer {
+    display: none;
+}

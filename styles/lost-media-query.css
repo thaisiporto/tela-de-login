@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600;700;800;900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* PEQUENAS TELAS */
+@media screen and (max-width: 550px) {
+    main {
+        width: 300px;
+    }
+    
+    div.fields input {
+        width: 215px;
+    }    
+}
+
+/* GRANDES TELAS */
+@media screen and (min-width: 551px) {
+    main {
+        width: 500px;
+    }
+    
+    div.fields input {
+        width: 415px;
+    }    
+}
