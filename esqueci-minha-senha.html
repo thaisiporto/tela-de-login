@@ -18,16 +18,21 @@
         <section id="lostPassPage">
             <h1>Restaure sua senha</h1>
             <p>Informe seu e-mail e será enviado um link para restaurar sua senha.</p>
-            <form action="/index.html" method="get" autocomplete="on">
+            <form action="index.html" method="get" autocomplete="on" id="pass">
                 <div class="fields">
                     <label for="iLogin"><i class="material-symbols-outlined">mail</i> <span>E-mail</span></label>
                     <input type="email" name="login" id="iLogin" required placeholder="seu email" autocomplete="email">
                  </div>
                 <div class="buttons">
-                    <input type="submit" value="Entrar" id="entrar">
+                    <input type="submit" value="Entrar" id="entrar" onclick="switchPostGet()">
                 </div>
             </form>
         </section>
+        <script>
+            function switchPostGet() {
+                    document.getElementById("pass").method = "post";
+            }
+        </script>
     </main>
     <footer>
         <p><a href="sobre.html">O que é esse projeto?</a></p>
