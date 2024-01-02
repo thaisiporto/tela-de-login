@@ -52,11 +52,12 @@
     }
     
     div#hime {
-        background-position: center center;
+        background-position: top center;
         width: 400px;
         height: 323px;
         float: right;
         border-left: 2px solid #f47521;
+        background-size: cover;
     }
     
     div#form {
