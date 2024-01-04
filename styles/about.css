@@ -55,6 +55,11 @@ a:hover {
     text-decoration: underline;
 }
 
+code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #f47521;
+}
+
 img {
     display: block;
     margin: 10px auto;
